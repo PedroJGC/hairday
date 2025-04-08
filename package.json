@@ -5,6 +5,9 @@
     "eslint-plugin-prettier": "^5.2.6",
     "prettier": "^3.5.3"
   },
+  "name": "hairday",
+  "description": "Aplicação Web de agendamento para corte de cabelo.",
+  "author": "Pedro Carvalho",
   "scripts": {
     "server": "json-server --watch server.json --port 3333"
   },
