@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { rules } = require('eslint-config-prettier');
 
 module.exports = {
   target: 'web',
@@ -26,4 +27,13 @@ module.exports = {
       favicon: path.resolve('src', 'assets', 'scissors.svg'),
     }),
   ],
+
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
 };
