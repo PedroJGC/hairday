@@ -1,3 +1,9 @@
 {
-    "schedules": []
+  "schedules": [
+    {
+      "id": 1744489595174,
+      "name": "Pedro Julio Guimarães Carvalho",
+      "when": "2025-04-12T22:00:00.000Z"
+    }
+  ]
 }
