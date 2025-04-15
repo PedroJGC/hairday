@@ -12,8 +12,8 @@ periods.forEach((period) => {
       const item = event.target.closest('li');
 
       // Pega o id do agendamento para remover.
-      const id = item.dataset.id;
-      console.log(id);
+      const id = Number(item.dataset.id);
+      console.log(id, typeof id);
       // Confirma que o id foi selecionado.
       if (id) {
         // Confirma se o usuário quer cancelar.

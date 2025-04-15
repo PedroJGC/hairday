@@ -1,14 +1,3 @@
 {
-  "schedules": [
-    {
-      "id": "1744663771947",
-      "name": "Pedro Carvalho",
-      "when": "2025-04-14T22:00:00.000Z"
-    },
-    {
-      "id": "1744667998310",
-      "name": "João Firmino",
-      "when": "2025-04-15T15:00:00.000Z"
-    }
-  ]
+  "schedules": []
 }
